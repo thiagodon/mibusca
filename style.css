@@ -46,12 +46,15 @@ body {
 }
 
 .logo {
-	height: 96px;
+	height: 72px;
 	padding-top: 24px;
-	/*background-color: #15242a;*/
+	margin-left: -128px;
+	margin-right: -128px;
+	border-bottom: 4px solid #cd6702;
 }
 
 .logo > img {	
+	margin-left: 128px;
 	float: left;
 }
 
@@ -61,6 +64,8 @@ body {
 
 .logo > .menu {
 	float: right;
+	margin-right: 128px;
+
 }
 .menu ul li {
 	display: inline;
